@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    </head>
+
+<style>
+    body{
+        font-family:'Gill Sans MT';
+    }
+
+    #sidebar{
+        float:left;
+        width:30%;
+        margin: 12px;
+        padding:12px;
+        border:1px dotted black;
+        min-height:500px;
+    }
+
+    #menu li{
+        height:auto;
+        padding: 8px 0px;
+        margin: 0px;
+    }
+
+    #menu li {
+        display: inline;
+        padding:20px;
+    }
+
+    #menu a{
+        text-decoration: none;
+        color: darkblue;
+        padding:8px 8px 8px 8px
+    }
+
+    #menu li{
+        display: inline;
+        padding:20px;
+    }
+
+    #menu a:hover{
+        color: darkblue;
+        background-color: #FFFFFF;
+    }
+
+    #maincontent{
+        float: right;
+        width: 50%;
+        margin:12px;
+        padding:12px;
+        border:1px solid black;
+        border-radious:10px;
+        min-height:500px;
+    }
+
+    input[type=text], input[type=password] {
+        width: 15%;
+        padding: 6px 6px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        align-content: center;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 6px 10px;
+        margin: 4px 0;
+        border: none;
+        cursor: pointer;
+        width: 10%;
+    }
+
+</style>
+
+<body>
+
+    <div id="header">
+        <header>
+            <h1 align="center"> ShoppingKart </h1>
+            <img src="ShoppingKart.jpg" alt="ShoppingKart" style= "float: right"; height="175px"; width="200"/>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li> <a href="Products.html">Products</a></li>
+            <li> <a href="Brands.html">Brands</a></li>
+            <li> <a href="Deals.html">Deals</a></li>
+            <li> <a href="Services.html">Services</a></li>
+            <li> <a href="SignIn.html">Sign In</a></li>
+            <li> <a href="MyKart.html">MyKart</a></li>
+        </ul>
+    </div>
+
+    <form>
+        Username:<input type="text" name="User Name"><br>
+        Passoword:<input type="password" name="Passowrd"><br>
+    </form>
+
+
+
+</body>
+
+</html>
